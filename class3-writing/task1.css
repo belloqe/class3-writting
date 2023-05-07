@@ -1,0 +1,101 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+body{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.container{
+  display: block;
+  width: 100%;
+  gap: 10px;
+  padding: 10px;
+  max-width: 1050px;
+}
+
+main {
+  display: block;
+  width: 1000px;
+  height: auto;
+  margin: 3%;
+  padding-top: 10%;
+  justify-content: center;
+  font: 1.2em Helvetica, Arial, sans-serif;
+  padding: 1em;
+}
+label {
+  width: 800px;
+}
+textarea { 
+  display: block;
+  width: 900px;
+  padding: 50px;
+  resize:none;  
+}
+
+/* Estilos para desktop */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+footer {
+  width: 100%; 
+  height: 30px;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  background-color: #de0707;
+}
+.copyright {
+  text-align: center;
+  height: 50%;
+  font-size: 14px;
+} 
